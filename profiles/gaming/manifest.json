@@ -1,0 +1,56 @@
+{
+    "name": "Gaming",
+
+    "id": "gaming",
+
+    "version": "1.0.0",
+
+    "description": "Gaming profile for MuliOS.",
+
+    "author": "MuliOS",
+
+    "requires_os": "1.0.0",
+
+    "profile": true,
+
+    "kernel": {
+        "type": "generic",
+        "parameters": [
+            "quiet"
+        ]
+    },
+
+    "packages": [
+        "steam",
+        "gamemode",
+        "mangohud",
+        "lutris",
+        "heroic",
+        "vulkan-tools"
+    ],
+
+    "services": {
+        "enable": [
+            "gamemode"
+        ],
+        "disable": []
+    },
+
+    "sysctl": {
+
+    },
+
+    "copy_files": [
+
+    ],
+
+    "dependencies": [
+
+    ],
+
+    "conflicts": [
+
+    ],
+
+    "reboot_required": true
+}

@@ -1,0 +1,27 @@
+{
+    "repository": "Official MuliOS Repository",
+
+    "version": 1,
+
+    "packages": [
+
+        {
+            "id": "gaming",
+            "version": "1.0.0",
+            "path": "profiles/gaming/Gaming.update"
+        },
+
+        {
+            "id": "battery",
+            "version": "1.0.0",
+            "path": "profiles/battery/Battery.update"
+        },
+
+        {
+            "id": "developer",
+            "version": "1.0.0",
+            "path": "profiles/developer/Developer.update"
+        }
+
+    ]
+}
