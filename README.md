@@ -4,6 +4,8 @@
 
 This repository contains update packages used by MuliOS to deliver new features, bug fixes, security patches, profile optimizations, and application changes.
 
+profiles are NOT updated here anymore, instead use MuliOS-profiles.
+
 ---
 
 MuliOS Update is responsible for distributing updates to all MuliOS installations.
