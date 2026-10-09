@@ -1,10 +1,8 @@
 # MuliOS Update
 
-> The official update repository for **MuliOS**.
+> The official update repository for **MuliOS's profiles.**.
 
-This repository contains update packages used by MuliOS to deliver new features, bug fixes, security patches, profile optimizations, and application changes.
-
-profiles are NOT updated here anymore, instead use MuliOS-profiles.
+This repository contains update packages used by MuliOS to deliver new kernel updates, bug fixes, security patches and profile optimizations.
 
 ---
 
@@ -25,7 +23,7 @@ The MuliOS Update client downloads update packages directly from this repository
 
 ## How Updates Work
 
-1. mupdate checks for updates.
+1. mupdate (system component) checks for updates.
 3. Required update package(s) are downloaded.
 4. The update engine executes the package.
 5. The system is updated without reinstalling MuliOS.
